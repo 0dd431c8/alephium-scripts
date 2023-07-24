@@ -1,0 +1,398 @@
+{
+  "fullNodeVersion": "v2.3.3",
+  "compilerOptionsUsed": {
+    "ignoreUnusedConstantsWarnings": true,
+    "ignoreUnusedVariablesWarnings": false,
+    "ignoreUnusedFieldsWarnings": false,
+    "ignoreUnusedPrivateFunctionsWarnings": false,
+    "ignoreUpdateFieldsCheckWarnings": false,
+    "ignoreCheckExternalCallerWarnings": false
+  },
+  "infos": {
+    "AddLiquidity": {
+      "sourceFile": "scripts/add_liquidity.ral",
+      "sourceCodeHash": "ae7c7a47ec7728436f5b56c039f277705fe3a71e64709d6ba40d8d802e3f6fbe",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "AyinPresale": {
+      "sourceFile": "ayin/ayin_presale.ral",
+      "sourceCodeHash": "cf1f2fa1cd5d272ead3fb02fce6c0408f0e3c3fd103e2d39f47e0beb2c92f4bd",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "92841263091066e79f85e643a434e97b5418f9734945bf3bab689130afc3a749",
+      "warnings": []
+    },
+    "AyinToken": {
+      "sourceFile": "ayin/ayin_token.ral",
+      "sourceCodeHash": "33a75da1ad2a3f1bb220cddc8aa94d3044d485e47375d4c809cf19d125f26f3f",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "7f75ea9e77d1465402dcfe91491e82ba5ff773bafc132c3a5ee695589d42ac3b",
+      "warnings": []
+    },
+    "Burn": {
+      "sourceFile": "scripts/burn.ral",
+      "sourceCodeHash": "28aacad8f388d36812349552df3bcf44278bffeebc35223d98868e7d380af791",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "BurnXToken": {
+      "sourceFile": "ayin/scripts/liquid_staking/burn.ral",
+      "sourceCodeHash": "52b6241f5b4b1c2288a61e46542257838a187925e0bb028181cd344f5f28a777",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "BuyAyin": {
+      "sourceFile": "ayin/scripts/presale/buy_ayin.ral",
+      "sourceCodeHash": "95350041dd3aebd8dc1cf2e9cc15b4307e40d7fdeee55d7fdc29e81f87f21bdf",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "ClaimRewards": {
+      "sourceFile": "ayin/scripts/staking/claim_rewards.ral",
+      "sourceCodeHash": "14927ed96f0dfa1fbe5edfa1f71e72430c02e6093027c4a818976cdcaca6302c",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "ClaimVestedTokens": {
+      "sourceFile": "ayin/scripts/vesting_schedule/claim_vested.ral",
+      "sourceCodeHash": "af2ff08cd09ff167df2fe0e0abfb110eb6aff9eb1cbd44a6579006bf30dc63c2",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "CollectFee": {
+      "sourceFile": "scripts/collect_fee.ral",
+      "sourceCodeHash": "1bf50ae9e84e3a698bf955f0ce7bfb14d2b05ac250255b7e0712dc523b6e44dc",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "Constants": {
+      "sourceFile": "dex/constants.ral",
+      "sourceCodeHash": "de716344afeac3e83450b8a8b0a0a9e97f056cd95d4b6e29476ddb93960c8140",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "CreatePair": {
+      "sourceFile": "scripts/create_pair.ral",
+      "sourceCodeHash": "27d25c96dc9797d46e427721f5fa8803adb9e35305f9895dce09f9ee68e6e811",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "CreateVestingSchedule": {
+      "sourceFile": "ayin/scripts/vesting_schedule/create.ral",
+      "sourceCodeHash": "20e0eb839249a082f4e4da77a88a51f1bcc3c86f9d6b2b0ac6484f3eb96715c7",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "DepositAyin": {
+      "sourceFile": "ayin/scripts/presale/deposit.ral",
+      "sourceCodeHash": "682e7128546ddf81bcef6cc1601eab3e9b54e63965e15df68090c9b99cf88356",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "EnableFeeCollector": {
+      "sourceFile": "scripts/enable_fee_collector.ral",
+      "sourceCodeHash": "d910bff218027c5b1f43bcafcb53a11213f5fff26be50f3cda85c5484b4d8888",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "ExampleOracleSimple": {
+      "sourceFile": "examples/example_oracle_simple.ral",
+      "sourceCodeHash": "2b330617826658a6336ab325956bc44df89c251c6183e1b2d10805f26d0c8746",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "52a275cfc409ff8fce483c7f9af7242922b40286e1e3174a129476a459dc67ac",
+      "warnings": []
+    },
+    "FeeCollectorFactory": {
+      "sourceFile": "dex/fee_collector_factory.ral",
+      "sourceCodeHash": "dbdcabe131650b1315fdf3216f7345971a1fcce2ffe6414f4384bbb07c56339d",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "FeeCollectorFactoryImpl": {
+      "sourceFile": "examples/fee_collector_factory_impl.ral",
+      "sourceCodeHash": "792272912b2ff021c5fc1a185617c4ee57370f92f76ac1f18c0351e843c2e295",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "966f75cddefe774a87dbf778012f4f3f494b3a860f4c975d0c5262a1be185d49",
+      "warnings": []
+    },
+    "FeeCollectorPerTokenPair": {
+      "sourceFile": "dex/fee_collector_per_token_pair.ral",
+      "sourceCodeHash": "5216b65256a0c226981db05459321c7a56add721c3ed1506613b07283724fc4f",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "FeeCollectorPerTokenPairImpl": {
+      "sourceFile": "examples/fee_collector_per_token_pair_impl.ral",
+      "sourceCodeHash": "12030965f27aedb1e593ea659314be67a7caf9a604885f4b8fc54f7303e95487",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "854934781b951bef0fe2035d06ef61bc11021157d31f464ac25364f5ef600c53",
+      "warnings": []
+    },
+    "FullMath": {
+      "sourceFile": "examples/full_math.ral",
+      "sourceCodeHash": "bad6926fafb2fd8c587896482505281d5a9b2250c036de46d2bbd47efbbc9434",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "FullMathTest": {
+      "sourceFile": "examples/full_math_test.ral",
+      "sourceCodeHash": "0e2e55075a2b663409743948d49459826e8e8ebdd0c881cb1fefd8d11686cfe5",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "d6834220b59d306adb6cd548433f9e1ab4f20c155cad9c80ef89be27cb82a286",
+      "warnings": []
+    },
+    "GetToken": {
+      "sourceFile": "test/get_token.ral",
+      "sourceCodeHash": "1e61b4573ed08acb31d54177295b4388e17c6f927a7fe0da74af032e9daed4dc",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "IFungibleToken": {
+      "sourceFile": "../../../../.npm/_npx/211faf007711e95c/node_modules/@alephium/web3/std/fungible_token_interface.ral",
+      "sourceCodeHash": "6809cb06fb20fa7edf529461998beeebd12b1636d439612cca2f84214dbf4a20",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "LiquidStaking": {
+      "sourceFile": "ayin/liquid_staking.ral",
+      "sourceCodeHash": "a39dd20222d9913c7a9052ad3e577ce03c72686cdc42ce022797221319037ba4",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "dc5d6f6640386ddbbc49f93fbd1104dcaecd6e25004cac6cb11c6ee69750793a",
+      "warnings": []
+    },
+    "Math": {
+      "sourceFile": "dex/math.ral",
+      "sourceCodeHash": "4be2abb3b39ed86d4714b9459e40c2050b3593601ed9e51db97f2f1a95d5129a",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "MathTest": {
+      "sourceFile": "test/math_test.ral",
+      "sourceCodeHash": "7f307735569bf071f47a34a3abfe87c9529c53890765d90c1aabf6bdb8494a81",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "085c8183210ec7296681e12ab74e37bebee9d495e78e24cc9b3cd1b110d6df2a",
+      "warnings": []
+    },
+    "Mint": {
+      "sourceFile": "scripts/mint.ral",
+      "sourceCodeHash": "20250bff8040a0260e1980607150116ee2d6aef9bdf39254316fcf0eaccb39f0",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "MintAyin": {
+      "sourceFile": "ayin/scripts/ayin/mint.ral",
+      "sourceCodeHash": "97c77da45ae01b8faabbf134a70d2aac56954b7aebf4ecbcc62c834b35a9b0bc",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "MintXToken": {
+      "sourceFile": "ayin/scripts/liquid_staking/mint.ral",
+      "sourceCodeHash": "e8537ef83da16760518199e5c391c2ca78769a9c4f817347398d509251784640",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "OracleErrors": {
+      "sourceFile": "examples/errors.ral",
+      "sourceCodeHash": "4d0ed85fbd224324446d1ddd22f5b4c87bb48a1fa0c5e1c3f0f4e48257a50e59",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "Pauseable": {
+      "sourceFile": "ayin/pauseable.ral",
+      "sourceCodeHash": "0a9ab5e8568190fff00534024b2e290e9f79d36a970b26fcf49593a55d084d8c",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "PauseableTest": {
+      "sourceFile": "test/pauseable_test.ral",
+      "sourceCodeHash": "cc2b70e6793e9979fb53f3402899bedd7fd449c05bf2a2c9cdc235401eabc9c8",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "accc04ce9a0639d9e75a35191f1850fcbab983ee7c5b6b364654c2fd0aff2bdf",
+      "warnings": []
+    },
+    "Permissions": {
+      "sourceFile": "ayin/permissions.ral",
+      "sourceCodeHash": "24b450b57515aa9212c9a844bc4064da5559b52ae2eac1e16454c9bdd4a3aaf6",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "PermissionsTest": {
+      "sourceFile": "test/permissions_test.ral",
+      "sourceCodeHash": "676ef6638efbd20f832f962da6bfa9abc2226c93f7ce8dc5d6a913aba597ab38",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "9faa4a80ad67c7d8360699436106de3efe6b693f883be86e5e3b14e53dbb34a9",
+      "warnings": []
+    },
+    "RemoveLiquidity": {
+      "sourceFile": "scripts/remove_liquidity.ral",
+      "sourceCodeHash": "a37e6c625f753ee67a3ac20bd4d71d19985d1a34381acf8833ea2a193378eb2e",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "Router": {
+      "sourceFile": "dex/router.ral",
+      "sourceCodeHash": "c954ad981c2457825654144d2930cf07266efeb0013603532ac925ca85db2eca",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "633e8976ba3d86558719ebfe9f34c7ec4da2e7a78b5e043a60723b34f4f0ab80",
+      "warnings": []
+    },
+    "SetFeeCollectorFactory": {
+      "sourceFile": "scripts/set_fee_collector_factory.ral",
+      "sourceCodeHash": "44709be4a8a58f2dbbbf9d8bb8b09c9654e3ef14a177fe44fdc451c072ba588d",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "Stake": {
+      "sourceFile": "ayin/scripts/staking/stake.ral",
+      "sourceCodeHash": "48b84e782d4b2abf6a1756877138bcb0dff805fdff654bdf5ac08857ed13db43",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "Staking": {
+      "sourceFile": "ayin/staking.ral",
+      "sourceCodeHash": "967d757cf35db21b9a50cfad2ffd307cff8f64f1d19d08b667fd9b0076aa59a7",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "1dcf33af1a73e1a38f05b168f5d6da7e10e69607142b331825afaba1f2502ecd",
+      "warnings": []
+    },
+    "StakingAccount": {
+      "sourceFile": "ayin/staking_account.ral",
+      "sourceCodeHash": "3a8f31e2e213d55978bf9f2ab645912e0ca49d42d937696d1899abe816fe07e6",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "fcc04774d79eddbeb3fa437b898b159e647b8eca0c95510b98f64320d19ca707",
+      "warnings": []
+    },
+    "StakingAccountFactory": {
+      "sourceFile": "ayin/staking_account_factory.ral",
+      "sourceCodeHash": "cb8bf7b1c20525178bd3099d804f8f5df7496f6109cf6db574f3dbe544760e0b",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "Swap": {
+      "sourceFile": "scripts/swap.ral",
+      "sourceCodeHash": "d84c3a3bb054954d9023b4b02884659c126684fba2984ef944ab8aec9eb76416",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "SwapMaxIn": {
+      "sourceFile": "scripts/swap_max_in.ral",
+      "sourceCodeHash": "91c41026f47cf9d75e56b00b24925031ad271ef30ad1717430d05835480b0aa5",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "SwapMinOut": {
+      "sourceFile": "scripts/swap_min_out.ral",
+      "sourceCodeHash": "846256348cfa6d306cacffa94c8c0108faa85d50c4a9e28b163c63be6ca26a63",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "TestToken": {
+      "sourceFile": "test/test_token.ral",
+      "sourceCodeHash": "cf585aa37720c2530bf4ba7493268a0c499bd5e9269cbb11423ba72ded571654",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "0831d766037e7873066276e891997881e8787f4fb4bd9d154925d80869efa129",
+      "warnings": []
+    },
+    "TokenPair": {
+      "sourceFile": "dex/token_pair.ral",
+      "sourceCodeHash": "32065060a550ff6ae12a4b7b4eb6918dcab50408dd47b6c4a2c705f5f5f2d33f",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "0ba23e4d958bc08a84958516f398b18390a393e91d4952b9816864565388a596",
+      "warnings": []
+    },
+    "TokenPairFactory": {
+      "sourceFile": "dex/token_pair_factory.ral",
+      "sourceCodeHash": "19388715466d7a867264ca64b362f4c1aeac7aad99816acd7e660358ee6b6095",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "44144899a2b71465a80654889afa8a2bf4a8f3cd0f30ad1880d2ffc7c12ad18b",
+      "warnings": []
+    },
+    "TopUpRewards": {
+      "sourceFile": "ayin/scripts/liquid_staking/topup_rewards.ral",
+      "sourceCodeHash": "22f6d5c68e01a7d3d850aa87e3a2af8e186d0dfd125f2ed278be534732264b46",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "Unstake": {
+      "sourceFile": "ayin/scripts/staking/unstake.ral",
+      "sourceCodeHash": "de02abe9dfe542392739bd109a289b56aa9a07a4e7d5df7a2c099d2fa28cb7a2",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "UpgradeLiquidStaking": {
+      "sourceFile": "ayin/scripts/liquid_staking/upgrade.ral",
+      "sourceCodeHash": "cdfc0648743c1042795ed28e2d9cb4c247dcf22d2d061ade6ac75b61059be92c",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "UpgradePresale": {
+      "sourceFile": "ayin/scripts/presale/upgrade.ral",
+      "sourceCodeHash": "93de6262fe1127feefdfdf31c34dc2cb08b505022d1e8bdb1059f3327f2328d4",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "UpgradeStaking": {
+      "sourceFile": "ayin/scripts/staking/upgrade.ral",
+      "sourceCodeHash": "5579ab9c9431ce782108a417789387c5cfce52df4cca7d1f0ff94a8477bac934",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    },
+    "VestingSchedule": {
+      "sourceFile": "ayin/vesting_schedule.ral",
+      "sourceCodeHash": "faa8ce8c7fcdcd48c7e712578a075dd24822e98bba496b660ae66c03a1d5d1b3",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "3dd6a9d365618b80604b8979b83f0fb501fe28c56cc40eda6f98ccf11352ee23",
+      "warnings": []
+    },
+    "VestingScheduleFactory": {
+      "sourceFile": "ayin/vesting_schedule_factory.ral",
+      "sourceCodeHash": "33515bf3a26d495ce89d70e44dc250613230ba47947aea6d2d990eec257c547c",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "e81f54e3e8c5776aad49ff648c69d78fb1df48f7fe14e7c3b3abf922121b49c4",
+      "warnings": []
+    },
+    "WithdrawFees": {
+      "sourceFile": "scripts/withdraw_fees.ral",
+      "sourceCodeHash": "b39221d612f9ce7ff368499e69727ad72baa4c3b5ae29c54a0c353c406b79e16",
+      "bytecodeDebugPatch": "",
+      "codeHashDebug": "",
+      "warnings": []
+    }
+  }
+}
